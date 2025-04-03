@@ -1,15 +1,17 @@
 {
-  "name": "college_websites",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+    "name": "college_websites",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "Abhishek Kumar Sharma",
+    "license": "ISC",
+    "description": "the college websites for the college final project",
+    "dependencies": {
+        "express": "^5.1.0",
+        "nodemon": "^3.1.9"
+    }
 }
